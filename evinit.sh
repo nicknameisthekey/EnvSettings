@@ -5,3 +5,4 @@ brew install dotnet
 brew install rust
 brew install fluor --cask
 brew install --cask iterm2
+brew install oh-my-posh

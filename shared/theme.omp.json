@@ -28,21 +28,6 @@
           }
         },
         {
-          "background": "#c1ce10",
-          "foreground": "#000000",
-          "style": "powerline",
-          "powerline_symbol": "\ue0b0",
-          "template": " \uf2db {{ round .PhysicalPercentUsed .Precision }}%",
-          "type": "sysinfo"
-        },
-        {
-          "background": "#c1ce10",
-          "foreground": "#000000",
-          "style": "powerline",
-          "template": " \uf85a {{ (div .PhysicalFreeMemory 1000000000.0) }}GB ",
-          "type": "sysinfo"
-        },
-        {
           "background": "#7396b9",
           "foreground": "#000000",
           "properties": {
