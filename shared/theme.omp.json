@@ -6,23 +6,11 @@
       "newline": false,
       "segments": [
         {
-          "background": "#1f54a3",
-          "foreground": "#000000",
-          "properties": {
-            "macos": "\uf179 ",
-            "ubuntu": "\uf31b ",
-            "windows": "\uf871 "
-          },
-          "style": "plain",
-          "template": " {{ if .WSL }}WSL at {{ end }}{{.Icon}}",
-          "type": "os"
-        },
-        {
           "type": "time",
           "style": "powerline",
-          "powerline_symbol": "\ue0b1",
-          "background": "#1f54a3",
-          "foreground": "#000000",
+          "background": "#508921",
+          "foreground": "#ffffff",
+          "leading_diamond": "\ue0b6",
           "properties": {
             "time_format": "15:04:05"
           }
@@ -46,7 +34,7 @@
       "alignment": "left",
       "segments": [
         {
-          "background": "#e7e7e7",
+          "background": "#d8d8b0",
           "foreground": "#000000",
           "powerline_symbol": "\ue0b0",
           "properties": {
