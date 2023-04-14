@@ -13,5 +13,9 @@
     "terminal.external.osxExec": "iTerm.app",
     "terminal.integrated.defaultProfile.osx": "zsh",
     "terminal.integrated.fontFamily": "Fira Code",
-    "explorer.confirmDelete": false
+    "explorer.confirmDelete": false,
+    "git.openRepositoryInParentFolders": "never",
+    "editor.minimap.enabled": false,
+    "FSharp.codeLenses.signature.enabled": false,
+    "FSharp.inlayHints.parameterNames": false
 }
