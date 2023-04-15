@@ -17,5 +17,6 @@
     "git.openRepositoryInParentFolders": "never",
     "editor.minimap.enabled": false,
     "FSharp.codeLenses.signature.enabled": false,
-    "FSharp.inlayHints.parameterNames": false
+    "FSharp.inlayHints.parameterNames": false,
+    "git.enableSmartCommit": true
 }

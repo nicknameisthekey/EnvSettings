@@ -13,3 +13,4 @@ brew install vlc --cask
 brew install lsd
 mkdir ~/.config/lsd
 cp ~/src/ENVSETTINGS/lsd.yaml ~/.config/lsd/config.yaml
+brew install --cask db-browser-for-sqlite

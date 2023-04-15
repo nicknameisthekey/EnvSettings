@@ -10,12 +10,9 @@ classic: false
 # layout.
 # Possible values: permission, user, group, context, size, date, name, inode, links
 blocks:
-  - permission
-  - user
-  - group
+  - name
   - size
   - date
-  - name
 
 # == Color ==
 # This has various color options. (Will be expanded in the future.)
@@ -91,7 +88,7 @@ recursion:
 # == Size ==
 # Specifies the format of the size column.
 # Possible values: default, short, bytes
-size: default
+size: short
 
 # == Permission ==
 # Specify the format of the permission column
@@ -119,7 +116,7 @@ no-symlink: false
 # == Total size ==
 # Whether to display the total size of directories.
 # Possible values: false, true
-total-size: false
+total-size: true
 
 # == Hyperlink ==
 # Attach hyperlink to filenames
