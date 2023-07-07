@@ -18,5 +18,10 @@
     "editor.minimap.enabled": false,
     "FSharp.codeLenses.signature.enabled": false,
     "FSharp.inlayHints.parameterNames": false,
-    "git.enableSmartCommit": true
+    "git.enableSmartCommit": true,
+    "hexeditor.columnWidth": 16,
+    "hexeditor.showDecodedText": true,
+    "hexeditor.defaultEndianness": "little",
+    "hexeditor.inspectorType": "aside",
+    "svelte.enable-ts-plugin": true
 }
