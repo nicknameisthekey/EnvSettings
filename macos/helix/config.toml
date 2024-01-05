@@ -1,0 +1,17 @@
+theme = "catppuccin_mocha"
+
+[keys.normal]
+C-k = ":format"
+C-s = ":write"
+tab = ":buffer-next"
+S-tab = ":buffer-previous"
+A-k = ["extend_line_below", "delete_selection", "move_line_down", "paste_before", "collapse_selection"]
+A-j = ["extend_line_below", "delete_selection", "move_line_up", "paste_before", "collapse_selection"]
+
+[editor]
+bufferline="always"
+
+[editor.file-picker]
+parents = false
+# [editor.lsp]
+# display-inlay-hints=true

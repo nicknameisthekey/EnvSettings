@@ -1,0 +1,32 @@
+[[language]]
+name = "c-sharp"
+language-servers = [ "omni" ]
+
+
+[language-server.rust-analyzer.config.check]
+command = "clippy"
+
+[language-server.omni]
+command = "dotnet"
+args = [ "/Users/vladislavbarsukov/.vscode/extensions/ms-dotnettools.csharp-1.26.0-darwin-arm64/.omnisharp/1.39.7-net6.0/OmniSharp.dll", "--languageserver" ]
+
+
+# [[language]]
+# name = "rust"
+
+# # [language.debugger]
+# # command = "codelldb"
+# # name = "codelldb"
+# # port-arg = "--port {}"
+# # transport = "tcp"
+
+# [[language.debugger.templates]]
+# name = "binary"
+# request = "launch"
+# [[language.debugger.templates.completion]]
+# completion = "filename"
+# name = "binary"
+
+# [language.debugger.templates.args]
+# program = "{0}"
+# runInTerminal = true
